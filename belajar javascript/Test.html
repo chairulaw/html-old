@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Var Alert</title>
+        <style type="text/css">
+
+            img {
+                width: 500px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <img id="nintendo" src="Episode 4/blue.jpg">
+            <button type="menu"></button>
+        </div>
+
+        <p>pilih lah salah satu gambar</p>
+            <input type="radio" id="blue" name="gambar">
+            <input type="radio" id="red" name="gambar">
+            <input type="submit" id="kirim">
+
+            <p>Masukkan Text:</p>
+            <input type="text" id="myText">
+            <button id="tombol">Tampilkan Alert</button>
+
+            <p>Masukkan text</p>
+            <input type="text" id="tolol">
+            <button id="babi">mampus</button>
+
+            <script type="text/javascript">
+
+                document.getElementById("babi").onclick = function() {
+                    var tol = document.getElementById("tolol").value;
+                    alert(tol);
+                }
+
+                document.getElementById("blue").onclick = function() {
+                    document.getElementById("nintendo").src = "Episode 4/blue.jpg"
+                }
+
+                document.getElementById("red").onclick = function() {
+                    document.getElementById("nintendo").src = "Episode 4/red.jpg"
+                }
+
+                document.getElementById("kirim").onclick
+                = function() {
+                    alert('sedang dikirim');
+                }
+
+                document.getElementById("tombol").onclick = function () {
+                    var text = document.getElementById("myText").value;
+                    alert(text);
+                }
+            </script>
+    </body>
+</html>

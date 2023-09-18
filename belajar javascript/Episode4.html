@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Episode 4</title>
+        <style type="text/css">
+            
+            img {
+                width: 500px;
+            }
+
+            #blue {
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                background-color: #3f5199;
+                float: left;
+                margin: 0 5px;
+            }
+
+            #green {
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                background-color: #00a2a7;
+                float: left;
+                margin: 0 5px;
+            }
+
+            #red {
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                background-color: #f07379;
+                float: left;
+                margin: 0 5px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <img id="nintendo" src="Episode 4/blue.jpg">
+        </div>
+
+        <div>
+            <h2>Pilihan Warna:</h2>
+            <div id="blue"></div>
+            <div id="green"></div>
+            <div id="red"></div>
+        </div>
+
+        <script type="text/javascript">
+
+            document.getElementById("blue").onclick = function () {
+                document.getElementById("nintendo").src = "Episode 4/blue.jpg";
+            }
+            document.getElementById("green").onclick = function () {
+                document.getElementById("nintendo").src = "Episode 4/green.jpg";
+            }    
+            document.getElementById("red").onclick = function () {
+                document.getElementById("nintendo").src = "Episode 4/red.jpg";
+            }
+
+        </script>
+
+    </body>
+</html>

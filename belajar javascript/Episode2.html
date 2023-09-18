@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <meta charset="utf-8">
+        <title>Episode 2</title>
+        <style type="text/css">
+             .inline {
+                background-color: red;
+                color: white;
+            }           
+
+            .internal {
+                background-color: green;
+                color: white;
+            }
+
+            .external {
+                background-color: blue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <button class="inline" onclick="alert('Hello World!')">Inline!</button>
+
+        <button class="internal" onclick="tampilkanAlert()">Internal!</button>
+        <script type="text/javascript">
+            function tampilkanAlert() {
+                alert('Internal Bosque!');
+            }
+        </script>
+
+        <button class="external" onclick="pop()">External!</button>
+        <script style="text/javascript" src="script.js"></script>
+    </body>
+</Html>

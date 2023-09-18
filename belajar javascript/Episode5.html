@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DOM CSS</title>
+        <style type="text/css">
+            #img {
+                width: 500px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h2 id="Text">Hello World!</h2>
+        <button id="Big">Besar</button>
+        <button id="Small">Kecil</button>
+
+        <h2 id="text">Hello World!</h2>
+        <button id="red">Red</button>
+        <button id="blue">Blue</button>
+        <button id="none">None</button>
+        <br>
+        <br>
+        <br>
+        <img id="gambar" src="Episode 4/blue.jpg" width="500px">
+        <script type="text/javascript">
+
+            document.getElementById("Big").onclick = function () {
+                document.getElementById("Text").style.fontSize = "100px";
+            }
+
+            document.getElementById("Small").onclick = function() {
+                document.getElementById("Text").style.fontSize = "50px";
+            }
+
+            document.getElementById("red").onclick = function () {
+                document.getElementById("text").style.color = "red";
+            }
+            document.getElementById("blue").onclick = function() {
+                document.getElementById("text").style.color = "blue";
+            }
+
+            document.getElementById("none").onclick = function() {
+                document.getElementById("text").style.color = "black";
+            }
+            
+            document.getElementById("gambar").onclick = function() {
+                document.getElementById("gambar").style.display = "none";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+div.example {
+  padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 25px;
+  }
+}
+</style>
+
+    <script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Maaaaci caaa")
+    alert("yeayyy jadian hehe")
+    alert("love caa:)")
+  window.location = "https://wa.me/6282171487329?text=iyaaa%20aku%20mau%20jadii%20pacar%20kamooo";
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=700
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=700
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=610
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+    
+  </head>
+  <body>
+    <div class="example"><h2><font color="red"><marquee>Haloooo caaa</marquee></font></h2>
+        <img alt="background-image" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzE2ZWE2YzU2MTBlMWYyNTJmNjU0Y2FkNTgzMjNkNGM3NTVkNDJmNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/c76IJLufpNwSULPk77/giphy.gif" />
+      <p>caaa...would u be my girlfriend?</p>
+
+  </div>
+
+<div id="By" style="position:absolute; left:64px; top:610px; width:210px;
+height:210px;">
+<input type="button" value=" maooooo " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:610px; width:210px; height:210px;">
+<input type="button" value=" gamawwww " onMouseOver="f()" />
+</div>
+    
+  </body>
+</html>
